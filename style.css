@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  line-height: 1;
+  color: #555;
+  overflow-x: hidden;
+  background-image: -webkit-linear-gradient(
+      top,
+      rgba(202, 222, 237, 0.848),
+      rgba(255, 255, 255, 0.803)
+    ),
+    url("ioit.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 1.4rem;
+}
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+
+  border: 3px solid rgb(2, 62, 77);
+  background-color: rgb(0, 200, 250);
+  margin-bottom: 3rem;
+
+  padding: 0;
+  border-radius: 1.2rem;
+}
+li {
+  padding: 1.2rem 2.4rem;
+  font-size: 1.6rem;
+  border-right: 5px solid rgb(230, 240, 242);
+}
+li:hover {
+  background-color: rgb(1, 27, 33);
+  cursor: pointer;
+}
+li:hover .department-link:visited {
+  color: white;
+}
+li:hover .department-link:link {
+  color: white;
+}
+
+li:last-child {
+  border-right: none;
+}
+li a {
+  display: block;
+  text-align: center;
+}
+
+.department-link:link,
+.department-link:visited {
+  color: rgb(2, 62, 77);
+  text-decoration: none;
+}
+
+.department-link:active,
+.department-link:hover {
+  color: white;
+}
+
+.text-box {
+  margin: 0.6rem 3.2rem 0 3.2rem;
+  padding: 0 2.4rem;
+  text-align: center;
+}
+.welcome-text {
+  font-size: 6.4rem;
+  line-height: 1.2;
+  margin-bottom: 0.4rem;
+}
+
+.login-template {
+  width: 60rem;
+  border: 3px solid rgb(0, 200, 250);
+  border-radius: 3rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  margin-top: 0;
+  box-shadow: 0 5px 40px 5px rgba(1, 70, 84, 0.766);
+  background-color: white;
+}
+
+.signup-division {
+  padding: 2.4rem;
+}
+.college-logo {
+  width: 100%;
+  padding: 1rem auto;
+  border-bottom: 2px solid rgb(0, 200, 250);
+  padding: 10px 10px;
+}
+input {
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 3rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1.1rem;
+}
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1.6rem;
+}
+
+.forgot-link:link,
+.forgot-link:visited {
+  font-size: 1.4rem;
+  color: rgb(4, 155, 255);
+}
+.forgot-link:active,
+.forgot-link:hover {
+  color: rgb(11, 48, 72);
+}
+.submit-btn {
+  display: block;
+  margin: 1.1rem auto;
+  background-color: rgb(2, 62, 77);
+  color: white;
+  padding: 1.2rem 2.4rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.submit-btn:hover {
+  box-shadow: 0 5px 40px 5px rgba(0, 8, 9, 0.1);
+  transform: scale(1.1);
+}
+.user-logo {
+  position: absolute;
+  right: 2rem;
+}
+form div:first-child {
+  position: relative;
+}
